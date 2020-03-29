@@ -109,9 +109,8 @@ import (
 	"io"
 	"os"
 
-	"golang.org/x/sys/unix"
-
 	"github.com/dave/diskfs/disk"
+	"golang.org/x/sys/unix"
 )
 
 // when we use a disk image with a GPT, we cannot get the logical sector size from the disk via the kernel
