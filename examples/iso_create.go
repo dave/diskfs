@@ -5,10 +5,10 @@ import (
 	"log"
 	"os"
 
-	diskfs "github.com/diskfs/go-diskfs"
-	"github.com/diskfs/go-diskfs/disk"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/iso9660"
+	diskfs "github.com/dave/diskfs"
+	"github.com/dave/diskfs/disk"
+	"github.com/dave/diskfs/filesystem"
+	"github.com/dave/diskfs/filesystem/iso9660"
 )
 
 func check(err error) {

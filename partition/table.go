@@ -3,7 +3,7 @@ package partition
 import (
 	"io"
 
-	"github.com/diskfs/go-diskfs/util"
+	"github.com/dave/diskfs/util"
 )
 
 // Table reference to a partitioning table on disk

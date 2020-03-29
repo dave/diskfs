@@ -1,4 +1,4 @@
-// Package util common utilities or other elements shared across github.com/diskfs/go-diskfs packages
+// Package util common utilities or other elements shared across github.com/dave/diskfs packages
 package util
 
 import "io"

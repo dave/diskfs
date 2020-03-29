@@ -1,4 +1,4 @@
-module github.com/diskfs/go-diskfs
+module github.com/dave/diskfs
 
 go 1.12
 

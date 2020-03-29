@@ -1,13 +1,13 @@
 // Package partition provides ability to work with individual partitions.
-// All useful implementations are subpackages of this package, e.g. github.com/diskfs/go-diskfs/gpt
+// All useful implementations are subpackages of this package, e.g. github.com/dave/diskfs/gpt
 package partition
 
 import (
 	"fmt"
 
-	"github.com/diskfs/go-diskfs/partition/gpt"
-	"github.com/diskfs/go-diskfs/partition/mbr"
-	"github.com/diskfs/go-diskfs/util"
+	"github.com/dave/diskfs/partition/gpt"
+	"github.com/dave/diskfs/partition/mbr"
+	"github.com/dave/diskfs/util"
 )
 
 // Read read a partition table from a disk

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/partition/mbr"
-	"github.com/diskfs/go-diskfs/util"
+	"github.com/dave/diskfs/partition/mbr"
+	"github.com/dave/diskfs/util"
 )
 
 func TestElToritoGenerateCatalog(t *testing.T) {

@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/diskfs/go-diskfs/util"
+	"github.com/dave/diskfs/util"
 )
 
 const (
-	dataStartSector = 16
+	dataStartSector         = 16
 	defaultVolumeIdentifier = "ISOIMAGE"
 )
 
@@ -494,8 +494,8 @@ func (fs *FileSystem) Finalize(options FinalizeOptions) error {
 
 	// if we asked for ElTorito, need to generate the boot catalog and save it
 	var (
-		catEntry *finalizeFileInfo
-		bootcat  []byte
+		catEntry      *finalizeFileInfo
+		bootcat       []byte
 		volIdentifier string = defaultVolumeIdentifier
 	)
 	if options.VolumeIdentifier != "" {

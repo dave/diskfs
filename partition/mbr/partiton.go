@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/diskfs/go-diskfs/util"
+	"github.com/dave/diskfs/util"
 )
 
 // Partition represents the structure of a single partition on the disk

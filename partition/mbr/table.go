@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/diskfs/go-diskfs/util"
+	"github.com/dave/diskfs/util"
 )
 
 // Table represents an MBR partition table to be applied to a disk or read from a disk
